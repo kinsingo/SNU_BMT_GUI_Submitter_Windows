@@ -1,0 +1,542 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libSNU_AI_BMT_GUI_Library.dll"
+		},
+		{
+			"path" : "libSNU_AI_BMT_GUI_Library.dll.a"
+		},
+		{
+			"path" : "libSNU_AI_BMT_GUI_Library.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"find_dependency",
+			"_qt_internal_find_qt_dependencies",
+			"target_compile_definitions"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake",
+			"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake",
+			"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
+			"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
+			"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
+			"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+			"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
+			"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
+			"C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 43,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 45,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"file" : 3,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 169,
+				"parent" : 4
+			},
+			{
+				"file" : 2,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 55,
+				"parent" : 6
+			},
+			{
+				"file" : 1,
+				"parent" : 7
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 61,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 43,
+				"parent" : 6
+			},
+			{
+				"file" : 8,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 8,
+				"line" : 42,
+				"parent" : 11
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 111,
+				"parent" : 12
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 76,
+				"parent" : 13
+			},
+			{
+				"file" : 5,
+				"parent" : 14
+			},
+			{
+				"command" : 3,
+				"file" : 5,
+				"line" : 57,
+				"parent" : 15
+			},
+			{
+				"file" : 4,
+				"parent" : 16
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 61,
+				"parent" : 17
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 111,
+				"parent" : 12
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 76,
+				"parent" : 19
+			},
+			{
+				"file" : 10,
+				"parent" : 20
+			},
+			{
+				"command" : 3,
+				"file" : 10,
+				"line" : 55,
+				"parent" : 21
+			},
+			{
+				"file" : 9,
+				"parent" : 22
+			},
+			{
+				"command" : 2,
+				"file" : 9,
+				"line" : 61,
+				"parent" : 23
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu++17 -fdiagnostics-color=always"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "MINGW_HAS_SECURE_API=1"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "QT_WIDGETS_LIB"
+				},
+				{
+					"backtrace" : 25,
+					"define" : "SNU_AI_BMT_GUI_LIBRARY"
+				},
+				{
+					"define" : "SNU_AI_BMT_GUI_Library_EXPORTS"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "UNICODE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "WIN32"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "WIN64"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_ENABLE_EXTENDED_ALIGNED_STORAGE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_UNICODE"
+				},
+				{
+					"backtrace" : 2,
+					"define" : "_WIN64"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "D:/QT_CPP_CMake/SNU_BMT_GUI/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/SNU_AI_BMT_GUI_Library_autogen/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.7.2/mingw_64/include/QtWidgets"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.7.2/mingw_64/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.7.2/mingw_64/include/QtCore"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.7.2/mingw_64/mkspecs/win32-g++"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.7.2/mingw_64/include/QtGui"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2,
+					2
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				6,
+				8,
+				11,
+				13,
+				16
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "SNU_AI_BMT_GUI_Library_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "SNU_AI_BMT_GUI_Library_autogen::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "SNU_AI_BMT_GUI_Library::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "C:\\Qt\\6.7.2\\mingw_64\\lib\\libQt6Widgets.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "C:\\Qt\\6.7.2\\mingw_64\\lib\\libQt6Gui.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "C:\\Qt\\6.7.2\\mingw_64\\lib\\libQt6Core.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "-lmpr",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "-luserenv",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "-ld3d11",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "-ldxgi",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "-ldxguid",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "-ld3d12",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "SNU_AI_BMT_GUI_Library",
+	"nameOnDisk" : "libSNU_AI_BMT_GUI_Library.dll",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				6,
+				8,
+				11,
+				13,
+				16
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				3,
+				5,
+				7,
+				9,
+				10,
+				12,
+				14,
+				15,
+				17
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				4,
+				18
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				19
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/SNU_AI_BMT_GUI_Library_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "snu_bmt_gui.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "snu_bmt_gui.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "snu_bmt_gui.ui",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : "app_theme_manager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "app_theme_manager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "logmanager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "logmanager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "bmt_enums.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "optionmanager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "optionmanager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "snu_bmt_processmanager.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "snu_bmt_processmanager.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "snu_bmt_interface.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "snu_bmt_gui_caller.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "snu_bmt_gui_caller.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/SNU_AI_BMT_GUI_Library_autogen/include/ui_snu_bmt_gui.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/SNU_AI_BMT_GUI_Library_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_7_2_MinGW_64_bit-Release/SNU_AI_BMT_GUI_Library_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-cfb50c8f25e1c587732c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SNU_AI_BMT_GUI_APP",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SNU_AI_BMT_GUI::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SNU_AI_BMT_GUI-Release-5e7314825694be00ce96.json",
+					"name" : "SNU_AI_BMT_GUI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SNU_AI_BMT_GUI_Library::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SNU_AI_BMT_GUI_Library-Release-3b970f77a890a6cdc076.json",
+					"name" : "SNU_AI_BMT_GUI_Library",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SNU_AI_BMT_GUI_Library_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SNU_AI_BMT_GUI_Library_autogen-Release-ead93d44b62ace01087d.json",
+					"name" : "SNU_AI_BMT_GUI_Library_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SNU_AI_BMT_GUI_Library_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SNU_AI_BMT_GUI_Library_autogen_timestamp_deps-Release-330f753c8c88f55a3f1a.json",
+					"name" : "SNU_AI_BMT_GUI_Library_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SNU_AI_BMT_GUI_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SNU_AI_BMT_GUI_autogen-Release-b093bc3a418a6391ef1d.json",
+					"name" : "SNU_AI_BMT_GUI_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SNU_AI_BMT_GUI_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SNU_AI_BMT_GUI_autogen_timestamp_deps-Release-b07814b51563a82f6d9e.json",
+					"name" : "SNU_AI_BMT_GUI_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/QT_CPP_CMake/SNU_BMT_GUI/build/Desktop_Qt_6_7_2_MinGW_64_bit-Release",
+		"source" : "D:/QT_CPP_CMake/SNU_BMT_GUI"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
