@@ -43,6 +43,11 @@ Step3) Build and Start BMT
   ```
   
 **2.Generate the Ninja build system using cmake**
+  -. Run the following command to remove existing cache  
+  ```powershell
+  Remove-Item -Recurse -Force CMakeCache.txt, CMakeFiles
+  ```
+  PS D:\SNU_BMT_GUI_Submitter_Windows\build>
   -. Run the following command to execute CMake in the current directory (usually the build directory). This command will generate the Ninja build system based on the CMakeLists.txt file located in the parent directory. Once successfully executed, the project will be ready to be built using Ninja.
   ```powershell
   cmake -G "Ninja" ..
@@ -63,6 +68,7 @@ Step3) Build and Start BMT
 **build and start program example**
 ```powershell
 PS C:\Users\jongh> cd D:\SNU_BMT_GUI_Submitter_Windows\build
+PS D:\SNU_BMT_GUI_Submitter_Windows\build> Remove-Item -Recurse -Force CMakeCache.txt, CMakeFiles
 PS D:\SNU_BMT_GUI_Submitter_Windows\build> cmake -G "Ninja" ..
 PS D:\SNU_BMT_GUI_Submitter_Windows\build> cmake --build .
 PS D:\SNU_BMT_GUI_Submitter_Windows\build> .\SNU_BMT_GUI_Submitter.exe
