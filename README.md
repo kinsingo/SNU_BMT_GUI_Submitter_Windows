@@ -1,4 +1,39 @@
 ## Submitter User Guide
+**0. Prerequisites**
+  1) Build System Set-up (MinGW-w64 Installation Guide for Windows)
+     ## 1. Visit the WinLibs Website
+     - Go to the [WinLibs official website](https://www.winlibs.com/).
+     ## 2. Download MinGW-w64
+      - On the main page, locate the latest version of the **MinGW-w64** build. This build includes the GCC (GNU Compiler Collection) for Windows.
+      - Choose the file that matches your system architecture: **x86_64** (64-bit), **i686** (32-bit)
+      - For example, if you are using a 64-bit Windows system, select the `winlibs-x86_64-posix-seh-gcc-14.2.0-llvm-18.1.8-mingw-w64ucrt-12.0.0-r1.zip` file.
+     ## 3. Extract the Files
+      - The directory where you extract the files will be your MinGW installation directory, e.g., `C:\mingw64` or `C:\mingw32`.
+
+## 4. Set Up Environment Variables
+
+To use MinGW from the command prompt easily, add its `bin` directory to the system `PATH` environment variable.
+
+### Steps:
+
+1. Open the Start menu and search for "Edit the system environment variables."
+2. In the "System Properties" window, click the "Environment Variables..." button.
+3. In the "System variables" section, select `Path` and click "Edit...".
+4. Click "New" and add the path to the `bin` directory of MinGW:
+   - `C:\mingw64\bin` (for 64-bit)
+   - `C:\mingw32\bin` (for 32-bit)
+5. Click "OK" to close all windows and save the changes.
+
+## 5. Verify the MinGW Installation
+
+- Open a command prompt.
+- Type the following command to verify that MinGW is installed correctly:
+
+  ```bash
+  gcc --version
+
+
+
 **1. Implementation**
    1) Implement the overridden functions in the `Virtual_Submitter_Implementation` class within `main.cpp`  
    : Ensure that these functions are implemented to operate correctly in the intended calculator (e.g., CPU, GPU, NPU).
