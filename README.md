@@ -31,8 +31,8 @@ Step3) Build and Start BMT
   ```
 
 ## Step2) Interface Implementation
-   1) Implement the overridden functions in the `Virtual_Submitter_Implementation` class within `main.cpp`  
-   : Ensure that these functions are implemented to operate correctly in the intended calculator (e.g., CPU, GPU, NPU).
+- Implement the overridden functions in the `Virtual_Submitter_Implementation` class within `main.cpp`  
+: Ensure that these functions are implemented to operate correctly in the intended calculator (e.g., CPU, GPU, NPU).
 
 ## Step3) Build and Start BMT
 **1.Open the Window terminal**  
