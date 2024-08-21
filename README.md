@@ -20,7 +20,7 @@ Step3) Build and Start BMT
   1. Open the Start menu and search for "Edit the system environment variables."  
   2. In the "System Properties" window, click the "Environment Variables..." button.  
   3. In the "System variables" section, select `Path` and click "Edit...".  
-  4. Click "New" and add the path to the `bin` directory of MinGW: `C:\mingw64\bin`(for 64-bit) or `C:\mingw32\bin`(for 32-bit)
+  4. Click "New" and add the path to the `bin` directory of MinGW: e.g., `C:\mingw64\bin`(for 64-bit) or `C:\mingw32\bin`(for 32-bit)
   5. Click "OK" to close all windows and save the changes.
 
 **5. Verify the MinGW Installation**
