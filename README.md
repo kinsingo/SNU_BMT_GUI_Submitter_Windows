@@ -35,8 +35,8 @@ Step3) Build and Start BMT
 
 ## Step3) Build and Start BMT
    1) Open the Window terminal  
-  -. Open PowerShell   
-  -. Navigate to the build directory using the command: [cd build]
+  -. Open PowerShell 
+  -. Navigate to the build directory using the command: [cd SNU_BMT_GUI_Submitter_Windows\build]
    2) Generate the Ninja build system using cmake  
   -. If cmake is not installed, download and install the cmake by downloading the [cmake-3.30.2-windows-x86_64.msi] file from the official Ninja releases page (https://cmake.org/download/). During the installation, select the option [Add CMake to the system PATH for all users]. When download is finished, restart PowerShell and type [cmake --version] to verify that CMake has been installed correctly.  
   -. If Ninja is not installed, download and install the Ninja build system by downloading the [ninja-win.zip] file from the official Ninja releases page (https://github.com/ninja-build/ninja/releases)  
