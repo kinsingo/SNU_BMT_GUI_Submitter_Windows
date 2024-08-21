@@ -51,7 +51,13 @@ Step3) Build and Start BMT
   cmake --build .
   ```
 
-**build process example**
+**4.Start builed BMT GUI**  
+   : Run the following command to build the project using the build system configured by CMake in the current directory. This will compile the project and create the executable SNU_BMT_GUI_Submitter.exe in the build folder.
+  ```powershell
+  .\SNU_BMT_GUI_Submitter.exe
+  ```
+
+**build and start program example**
 ```powershell
 PS C:\Users\jongh> cd D:\SNU_BMT_GUI_Submitter_Windows\build
 PS D:\SNU_BMT_GUI_Submitter_Windows\build> cmake -G "Ninja" ..
