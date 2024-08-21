@@ -3,7 +3,7 @@
 2. Interface Implementation  
 3. Build and Start BMT  
       
-## Build System Set-up (MinGW-w64 Installation Guide for Windows)
+## 1.Build System Set-up (MinGW-w64 Installation Guide for Windows)
 **1. Visit the WinLibs Website**  
 - Go to the [WinLibs official website](https://www.winlibs.com/).  
 
@@ -29,11 +29,11 @@
   ```bash
   gcc --version
 
-## Interface Implementation
+## 2.Interface Implementation
    1) Implement the overridden functions in the `Virtual_Submitter_Implementation` class within `main.cpp`  
    : Ensure that these functions are implemented to operate correctly in the intended calculator (e.g., CPU, GPU, NPU).
 
-## Build and Start BMT
+## 3.Build and Start BMT
    1) Open the Window terminal  
   -. Open PowerShell   
   -. Navigate to the build directory using the command: [cd build]
