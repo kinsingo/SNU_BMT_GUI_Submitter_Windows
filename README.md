@@ -17,9 +17,5 @@ Run [cmake --build .] to build the project using the build system configured by 
 1. PS C:\Users\jongh> cd D:\QT_CPP_CMake\SNU_BMT_GUI_Submitter_Windows
 2. PS D:\QT_CPP_CMake\SNU_BMT_GUI_Submitter_Windows> cd build
 3. PS D:\QT_CPP_CMake\SNU_BMT_GUI_Submitter_Windows\build> cmake -G "Ninja" ..
--- Configuring done (0.9s)
--- Generating done (0.4s)
--- Build files have been written to: D:/QT_CPP_CMake/SNU_BMT_GUI_Submitter_Windows/build
 4. PS D:\QT_CPP_CMake\SNU_BMT_GUI_Submitter_Windows\build> cmake --build .
-[2/2] Linking CXX executable SNU_BMT_GUI_Submitter.exe
 5. PS D:\QT_CPP_CMake\SNU_BMT_GUI_Submitter_Windows\build> .\SNU_BMT_GUI_Submitter.exe
