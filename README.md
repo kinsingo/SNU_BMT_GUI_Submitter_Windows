@@ -35,31 +35,30 @@ Step3) Build and Start BMT
 : Ensure that these functions are implemented to operate correctly in the intended calculator (e.g., CPU, GPU, NPU).
 
 ## Step3) Build and Start BMT
-**1.Open the Window terminal**  
-  -. Open PowerShell  
-  -. Navigate to the build directory using the following command
+**1. Open the Window terminal**  
+  - Open PowerShell  
+  - Navigate to the build directory using the following command
   ```powershell
   cd SNU_BMT_GUI_Submitter_Windows\build
   ```
   
-**2.Generate the Ninja build system using cmake**
-  -. Run the following command to remove existing cache  
+**2. Generate the Ninja build system using cmake**  
+  - Run the following command to remove existing cache  
   ```powershell
   Remove-Item -Recurse -Force CMakeCache.txt, CMakeFiles
   ```
-  PS D:\SNU_BMT_GUI_Submitter_Windows\build>
-  -. Run the following command to execute CMake in the current directory (usually the build directory). This command will generate the Ninja build system based on the CMakeLists.txt file located in the parent directory. Once successfully executed, the project will be ready to be built using Ninja.
+  - Run the following command to execute CMake in the current directory (usually the build directory). This command will generate the Ninja build system based on the CMakeLists.txt file located in the parent directory. Once successfully executed, the project will be ready to be built using Ninja.
   ```powershell
   cmake -G "Ninja" ..
   ```
 
-**3.Build the project**  
+**3. Build the project**  
    : Run the following command to build the project using the build system configured by CMake in the current directory. This will compile the project and create the executable SNU_BMT_GUI_Submitter.exe in the build folder.
   ```powershell
   cmake --build .
   ```
 
-**4.Start builed BMT GUI**  
+**4. Start builed BMT GUI**  
    : Run the following command to build the project using the build system configured by CMake in the current directory. This will compile the project and create the executable SNU_BMT_GUI_Submitter.exe in the build folder.
   ```powershell
   .\SNU_BMT_GUI_Submitter.exe
