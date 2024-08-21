@@ -17,7 +17,6 @@
 ```powershell
 PS C:\Users\jongh> cd D:\QT_CPP_CMake\SNU_BMT_GUI_Submitter_Windows
 PS D:\QT_CPP_CMake\SNU_BMT_GUI_Submitter_Windows> cd build
-PS D:\QT_CPP_CMake\SNU_BMT_GUI_Submitter_Windows\build> sudo apt-get install ninja-build
 PS D:\QT_CPP_CMake\SNU_BMT_GUI_Submitter_Windows\build> cmake -G "Ninja" ..
 PS D:\QT_CPP_CMake\SNU_BMT_GUI_Submitter_Windows\build> cmake --build .
 PS D:\QT_CPP_CMake\SNU_BMT_GUI_Submitter_Windows\build> .\SNU_BMT_GUI_Submitter.exe
