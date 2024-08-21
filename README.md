@@ -24,7 +24,7 @@ Step3) Build and Start BMT
   5. Click "OK" to close all windows and save the changes.
 
 **5. Verify the MinGW Installation**
-- Open PowerShell   
+- Reopen PowerShell 
 - Type the following command to verify that MinGW is installed correctly:
   ```bash
   gcc --version
