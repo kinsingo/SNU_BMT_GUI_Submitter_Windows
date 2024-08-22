@@ -38,7 +38,7 @@ Step3) Build and Start BMT
 **1. Open the Window terminal**  
   - Clone and navigate to the build directory using the following command
     ```powershell
-    git clone https://github.com/kinsingo/SNU_BMT_GUI_Submitter_Linux.git
+    git clone https://github.com/kinsingo/SNU_BMT_GUI_Submitter_Windows.git
     cd SNU_BMT_GUI_Submitter_Windows\build
     ```
 
