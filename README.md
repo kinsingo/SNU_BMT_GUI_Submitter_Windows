@@ -36,12 +36,12 @@ Step3) Build and Start BMT
 
 ## Step3) Build and Start BMT
 **1. Open the Window terminal**  
-  - Open PowerShell  
-  - Navigate to the build directory using the following command
+  - Clone and navigate to the build directory using the following command
     ```powershell
+    git clone https://github.com/kinsingo/SNU_BMT_GUI_Submitter_Linux.git
     cd SNU_BMT_GUI_Submitter_Windows\build
     ```
-  
+
 **2. Generate the Ninja build system using cmake**  
   - Run the following command to remove existing cache  
     ```powershell
