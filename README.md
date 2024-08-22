@@ -59,7 +59,7 @@ Step3) Build and Start BMT
     ```
 
 **4. Start builed BMT GUI**  
-  - Run the following command to build the project using the build system configured by CMake in the current directory. This will compile the project and create the executable SNU_BMT_GUI_Submitter.exe in the build folder.
+  - Run the following command to start created excutable. When the GUI Popup, Click [Start BMT] button to start AI Performance Analysis.
     ```powershell
     .\SNU_BMT_GUI_Submitter.exe
     ```
