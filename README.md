@@ -73,3 +73,11 @@ PS D:\SNU_BMT_GUI_Submitter_Windows\build> cmake --build .
 PS D:\SNU_BMT_GUI_Submitter_Windows\build> .\SNU_BMT_GUI_Submitter.exe
 ```
 
+**Run all commands at once (For Rebuild)**
+```powershell
+Remove-Item -Recurse -Force CMakeCache.txt, CMakeFiles
+cmake -G "Ninja" ..
+cmake --build .
+.\SNU_BMT_GUI_Submitter.exe
+```
+
