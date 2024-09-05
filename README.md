@@ -1,4 +1,4 @@
-## Submitter User Guide Steps
+## Submitter User Guide Steps (Tested on Window10)
 Step1) Build System Set-up  
 Step2) Interface Implementation  
 Step3) Build and Start BMT  
